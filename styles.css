@@ -1,0 +1,39 @@
+#views-tabs-bar {
+	display: flex;
+	gap: 2px;
+	padding: 6px 16px;
+	border-bottom: 1px solid #e1e3e5;
+	background: #fff;
+	overflow-x: auto;
+	scrollbar-width: thin;
+}
+
+.views-tab {
+	appearance: none;
+	border: 1px solid transparent;
+	background: transparent;
+	padding: 3px 10px;
+	border-radius: 6px;
+	font: inherit;
+	font-size: 12px;
+	line-height: 18px;
+	color: #303030;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: background-color 100ms ease, border-color 100ms ease;
+}
+
+.views-tab:hover {
+	background: #f1f2f4;
+}
+
+.views-tab:focus-visible {
+	outline: 2px solid #005bd3;
+	outline-offset: 1px;
+}
+
+.views-tab[aria-current="true"] {
+	background: #f1f2f4;
+	font-weight: 600;
+}
+

@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Shopify Admin Saved Views Tabs",
+	"version": "0.1.0",
+	"description": "Restores a horizontal tab bar for Shopify admin saved views (Orders, Products, Customers, Draft Orders).",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://admin.shopify.com/*",
+				"https://*.myshopify.com/admin/*"
+			],
+			"js": ["content.js"],
+			"css": ["styles.css"],
+			"run_at": "document_idle"
+		}
+	]
+}
