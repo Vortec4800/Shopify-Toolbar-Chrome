@@ -4,7 +4,7 @@ A Manifest V3 Chrome extension that brings back the old horizontal tab strip for
 
 Delegates the actual filter switch back to Shopify by clicking the matching dropdown item, so no Shopify API calls and no auth setup.
 
-## Current version: v0.2
+## Current version: v0.2.0
 
 Renders a horizontal tab strip just below the filter row. Clicks on a tab re-open the native dropdown under the hood and click the matching menu item, so Shopify handles the actual filter switch. The original "All ⇅" dropdown is kept visible as a fallback and as the access point for adding/renaming/deleting views.
 
